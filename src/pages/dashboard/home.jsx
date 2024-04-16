@@ -17,13 +17,15 @@ import {
   EllipsisVerticalIcon,
   ArrowUpIcon,
 } from "@heroicons/react/24/outline";
-import { StatisticsCard } from "@/widgets/cards";
+import { StatisticsCard, StockSentimentCard } from "@/widgets/cards";
+import { TimeFilter } from "@/widgets/layout/time-filter";
 import { StatisticsChart } from "@/widgets/charts";
 import {
   statisticsCardsData,
   statisticsChartsData,
+  statisticsChartsNews,
   projectsTableData,
-  ordersOverviewData,
+  ordersOverviewData
 } from "@/data";
 import {
   Sidenav,
@@ -34,9 +36,10 @@ import { CheckCircleIcon, ClockIcon } from "@heroicons/react/24/solid";
 export function Home() {
   return (
     <div className="mt-12">
+      <div className="mb-12 flex justify-center items-center gap-x-4">
       <SearchCard />
+    </div>
       <div className="mb-12 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-4">
-        
         {statisticsCardsData.map(({ icon, title, footer, ...rest }) => (
           <StatisticsCard
             key={title}
@@ -58,69 +61,30 @@ export function Home() {
       
       <div className="flex flex-col md:flex-row md:space-x-6">
         <div className="md:w-1/2">
-         <h1>News</h1>
-         <Card className="border border-blue-gray-100 shadow-sm">
-           <CardHeader
-            floated={false}
-            shadow={false}
-            color="transparent"
-            className="m-0 p-6"
-          >
-            <Typography variant="h6" color="blue-gray" className="mb-2">
-              Orders Overview
-            </Typography>
-            <Typography
-              variant="small"
-              className="flex items-center gap-1 font-normal text-blue-gray-600"
-            >
-              <ArrowUpIcon
-                strokeWidth={3}
-                className="h-3.5 w-3.5 text-green-500"
-              />
-              <strong>24%</strong> this month
-            </Typography>
-          </CardHeader>
-          <CardBody className="pt-0">
-            {ordersOverviewData.map(
-              ({ icon, color, title, description }, key) => (
-                <div key={title} className="flex items-start gap-4 py-3">
-                  <div
-                    className={`relative p-1 after:absolute after:-bottom-6 after:left-2/4 after:w-0.5 after:-translate-x-2/4 after:bg-blue-gray-50 after:content-[''] ${
-                      key === ordersOverviewData.length - 1
-                        ? "after:h-0"
-                        : "after:h-4/6"
-                    }`}
-                  >
-                    {React.createElement(icon, {
-                      className: `!w-5 !h-5 ${color}`,
-                    })}
-                  </div>
-                  <div>
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="block font-medium"
-                    >
-                      {title}
-                    </Typography>
-                    <Typography
-                      as="span"
-                      variant="small"
-                      className="text-xs font-medium text-blue-gray-500"
-                    >
-                      {description}
-                    </Typography>
-                  </div>
-                </div>
-              )
-            )}
-          </CardBody>
-        </Card>
+        <h1 className="text-3xl text-black-600 font-bold my-4">News</h1>
+         <StockSentimentCard sentiment="Bearish" />
+         {statisticsChartsNews.map((props) => (
+          <StatisticsChart
+            key={props.title}
+            {...props}
+            footer={
+              <Typography
+                variant="small"
+                className="flex items-center font-normal text-blue-gray-600"
+              >
+                <ClockIcon strokeWidth={2} className="h-4 w-4 text-blue-gray-400" />
+                &nbsp;{props.footer}
+              </Typography>
+            }
+          />
+        ))}
+        
         </div>
         <div className="md:w-1/2">
           {/* Place the content for the right section here */}
-          <h1>Social Media</h1>
+          <h1 className="text-3xl text-black-600 font-bold my-4">Social Media</h1>
           <div className="mb-6 grid ">
+          <StockSentimentCard sentiment="Bullish" />
         {statisticsChartsData.map((props) => (
           <StatisticsChart
             key={props.title}
@@ -137,66 +101,6 @@ export function Home() {
           />
         ))}
        </div>
-          <Card className="border border-blue-gray-100 shadow-sm">
-           <CardHeader
-            floated={false}
-            shadow={false}
-            color="transparent"
-            className="m-0 p-6"
-          >
-            <Typography variant="h6" color="blue-gray" className="mb-2">
-              Orders Overview
-            </Typography>
-            <Typography
-              variant="small"
-              className="flex items-center gap-1 font-normal text-blue-gray-600"
-            >
-              <ArrowUpIcon
-                strokeWidth={3}
-                className="h-3.5 w-3.5 text-green-500"
-              />
-              <strong>24%</strong> this month
-            </Typography>
-          </CardHeader>
-          <CardBody className="pt-0">
-            {ordersOverviewData.map(
-              ({ icon, color, title, description }, key) => (
-                <div key={title} className="flex items-start gap-4 py-3">
-                  <div
-                    className={`relative p-1 after:absolute after:-bottom-6 after:left-2/4 after:w-0.5 after:-translate-x-2/4 after:bg-blue-gray-50 after:content-[''] ${
-                      key === ordersOverviewData.length - 1
-                        ? "after:h-0"
-                        : "after:h-4/6"
-                    }`}
-                  >
-                    {React.createElement(icon, {
-                      className: `!w-5 !h-5 ${color}`,
-                    })}
-                  </div>
-                  <div>
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="block font-medium"
-                    >
-                      {title}
-                    </Typography>
-                    <Typography
-                      as="span"
-                      variant="small"
-                      className="text-xs font-medium text-blue-gray-500"
-                    >
-                      {description}
-                    </Typography>
-                  </div>
-                </div>
-              )
-            )}
-          </CardBody>
-        </Card>
-
-        
-
         </div>
       </div>
     </div>
