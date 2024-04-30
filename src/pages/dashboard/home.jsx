@@ -26,8 +26,6 @@ import {
   statisticsCardsData,
   statisticsChartsSocial,
   statisticsChartsNews,
-  projectsTableData,
-  ordersOverviewData,
   pieCharts
 } from "@/data";
 import {
