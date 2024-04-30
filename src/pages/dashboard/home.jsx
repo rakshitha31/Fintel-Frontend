@@ -58,8 +58,7 @@ export function Home() {
         <TabPanel>
         
            <GaugeMeter values={gaugeData}/> 
-        
-          <div className="mb-12 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mb-12 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-2">
           {pieCharts && pieCharts.map((props) => (
               <StatisticsChart
                 key={props.title}

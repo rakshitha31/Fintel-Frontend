@@ -47,7 +47,7 @@ const cleanData = (data) => {
   const newsIciData = iciData.filter((item) => newsRelationship.includes(item.id) && item.type === 'sentiments');
   // make two arrays of newsICIData.attributes.daily_ici and date
   const newsIciDataSorted = newsIciData.sort((a, b) => new Date(a.attributes.date) - new Date(b.attributes.date));
-  const newsIci = newsIciDataSorted.map((item) => item.attributes.daily_ici);
+  const newsIci = newsIciDataSorted.map((item) => item.attributes.daily_ici.toFixed(3));
   const newsDate = newsIciDataSorted.map((item) => new Date(item.attributes.date).toLocaleDateString('en-CA'));
   const newsVolume = newsIciDataSorted.map((item) => item.attributes.volume);
   // add all the positive_count values for all the newsIciData
@@ -59,7 +59,7 @@ const cleanData = (data) => {
   // filter social ici data from iciData where id is equal to socialRelationship id
   const socialIciData = iciData.filter((item) => socialRelationship.includes(item.id)  && item.type === 'sentiments');
   const socialIciDataSorted = socialIciData.sort((a, b) => new Date(a.attributes.date) - new Date(b.attributes.date));
-  const socialIci = socialIciDataSorted.map((item) => item.attributes.daily_ici);
+  const socialIci = socialIciDataSorted.map((item) => item.attributes.daily_ici.toFixed(3));
   const socialDate = socialIciDataSorted.map((item) => new Date(item.attributes.date).toLocaleDateString('en-CA'));
   const socialVolume = socialIciDataSorted.map((item) => item.attributes.volume);
   const socialPositive = socialIciData.map((item) => item.attributes.positive_count).reduce((a, b) => a + b, 0);

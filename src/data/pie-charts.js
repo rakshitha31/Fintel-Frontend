@@ -32,13 +32,13 @@ const sentimentDistributionChartSocial = (data) =>({
     {
       color: "white",
       title: "News Sentiment Distribution",
-      description: "Number of positive and negative sentiment",
+  
       chart: sentimentDistributionChartNews(data),
     },
     {
         color: "white",
         title: "Social Sentiment Distribution",
-        description: "Number of positive and negative sentiment",
+      
         chart: sentimentDistributionChartSocial(data),
       },
   ]};
