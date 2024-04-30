@@ -1,12 +1,12 @@
 import { chartsConfig } from "@/configs";
 
-const websiteViewsChart = {
+export const chatterVolumeChart = (newsData) =>({
   type: "bar",
   height: 220,
   series: [
     {
       name: "Views",
-      data: [50, 20, 50, 22, 20, 10, 90],
+      data: newsData.newsVolume,
     },
   ],
   options: {
@@ -14,24 +14,24 @@ const websiteViewsChart = {
     colors: "#388e3c",
     plotOptions: {
       bar: {
-        columnWidth: "16%",
+        columnWidth: "15%",
         borderRadius: 5,
       },
     },
     xaxis: {
       ...chartsConfig.xaxis,
-      categories: ["M", "T", "W", "T", "F", "S", "S"],
+      categories: newsData.newsDate,
     },
   },
-};
+});
 
-const dailySalesChart = {
+export const iciChart = (newsData) => ({
   type: "line",
   height: 220,
   series: [
     {
       name: "ICI",
-      data: [0.5, -0.2, 0.6, 0.4, 0.1, 0.5, 0.7, 0.4, 0.9],
+      data:  newsData.newsIci,
     },
   ],
   options: {
@@ -45,55 +45,45 @@ const dailySalesChart = {
     },
     xaxis: {
       ...chartsConfig.xaxis,
-      categories: [
-        "Apr-01",
-        "Apr-02",
-        "Apr-03",
-        "Apr-04",
-        "Apr-05",
-        "Apr-06",
-        "Apr-07",
-        "Apr-08",
-        "Apr-09",
-      ],
+      categories: newsData.newsDate,
     },
   },
-};
+});
 
 // pie chart for sentiment
-const completedTasksChart = {
+export const sentimentDistributionChart = (newsData) =>({
   type: "pie",
   height: 220,
-  series: [40, 50],
+  series: [newsData.newsPositive, newsData.newsNegative, newsData.newsNeutral],
   options: {
     ...chartsConfig,
-    labels: ["Bullish", "Bearish"],
-    colors: ["#388e3c", "#f44336"],
+    labels: ["Bullish", "Bearish", "Neutral"],
+    colors: ["#388e3c", "#f44336", "#ffeb3b"],
   },
-};
+});
 
-export const statisticsChartsNews = [
+export const statisticsChartsNews = (newsData) => {
+  if(!newsData){
+    return null;
+  }
+
+  console.log(newsData.newsIci);
+  return [
   {
     color: "white",
     title: "Chatter Volume",
     description: "Number of posts per day",
     footer: "campaign sent 2 days ago",
-    chart: websiteViewsChart,
+    chart: chatterVolumeChart(newsData),
   },
   {
     color: "white",
     title: "Daily Sentiment Synergy for AAPL",
     description: "ICI Indicates the sentiment of the stock",
     footer: "updated 4 min ago",
-    chart: dailySalesChart,
+    chart: iciChart(newsData),
   },
-  {
-    color: "white",
-    title: "Positive Vs Negative Sentiment",
-    description: "Number of positive and negative sentiment",
-    footer: "just updated",
-    chart: completedTasksChart,
-  },
-];
+  
+]};
 
 export default statisticsChartsNews;

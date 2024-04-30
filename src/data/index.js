@@ -7,3 +7,4 @@ export * from "@/data/conversations-data";
 export * from "@/data/projects-data";
 export * from "@/data/authors-table-data";
 export * from "@/data/stats-chart-news";
+export * from "@/data/pie-charts";

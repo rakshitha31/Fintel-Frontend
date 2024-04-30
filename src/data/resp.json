@@ -1,0 +1,4590 @@
+{
+    "data": {
+        "type": "stocks",
+        "id": "TSLA",
+        "attributes": {
+            "news_correlation": 0.5028691934023543,
+            "social_correlation": -0.5359945535975874
+        },
+        "relationships": {
+            "news_sentiment": {
+                "data": [
+                    {
+                        "type": "sentiments",
+                        "id": "38"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "39"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "41"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "43"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "45"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "47"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "32"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "33"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "35"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "36"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "28"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "29"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "30"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "31"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "49"
+                    }
+                ]
+            },
+            "social_sentiment": {
+                "data": [
+                    {
+                        "type": "sentiments",
+                        "id": "68"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "70"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "51"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "52"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "53"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "54"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "55"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "58"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "59"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "61"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "65"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "73"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "77"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "78"
+                    },
+                    {
+                        "type": "sentiments",
+                        "id": "50"
+                    }
+                ]
+            },
+            "top_contents_news": {
+                "data": [
+                    {
+                        "type": "top_contents",
+                        "id": "345"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "346"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "347"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "348"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "349"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "350"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "351"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "352"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "353"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "354"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "355"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "356"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "357"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "358"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "359"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "360"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "361"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "362"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "363"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "364"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "365"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "366"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "367"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "368"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "369"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "370"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "371"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "372"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "373"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "374"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "375"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "376"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "377"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "378"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "379"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "380"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "381"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "382"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "383"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "384"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "385"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "386"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "387"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "388"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "389"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "390"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "391"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "392"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "393"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "394"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "395"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "396"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "397"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "398"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "399"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "400"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "401"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "402"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "403"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "404"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "405"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "406"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "407"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "408"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "409"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "410"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "411"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "412"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "413"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "414"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "415"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "416"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "417"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "418"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "419"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "420"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "421"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "422"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "423"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "424"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "425"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "426"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "427"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "428"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "429"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "430"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "431"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "432"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "433"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "434"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "435"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "436"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "437"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "438"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "439"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "440"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "441"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "442"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "443"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "444"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "445"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "446"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "447"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "448"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "449"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "450"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "451"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "452"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "453"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "454"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "455"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "456"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "457"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "458"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "459"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "460"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "461"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "462"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "463"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "464"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "465"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "466"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "467"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "468"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "469"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "470"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "471"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "472"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "473"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "474"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "475"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "476"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "477"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "478"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "479"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "480"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "481"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "482"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "483"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "484"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "495"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "496"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "497"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "498"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "499"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "500"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "501"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "502"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "503"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "504"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "505"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "506"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "507"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "508"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "509"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "510"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "511"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "512"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "513"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "514"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "515"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "516"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "517"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "518"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "519"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "520"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "521"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "522"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "523"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "524"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "525"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "526"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "527"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "528"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "529"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "530"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "531"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "532"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "533"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "534"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "535"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "536"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "537"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "538"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "539"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "540"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "541"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "542"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "543"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "544"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "545"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "546"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "547"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "548"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "549"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "550"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "551"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "552"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "553"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "554"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "555"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "556"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "557"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "558"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "559"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "560"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "561"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "562"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "563"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "564"
+                    }
+                ]
+            },
+            "top_contents_social": {
+                "data": [
+                    {
+                        "type": "top_contents",
+                        "id": "565"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "566"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "567"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "568"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "569"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "570"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "571"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "572"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "573"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "574"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "575"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "576"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "577"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "578"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "579"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "580"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "581"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "582"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "583"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "584"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "585"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "586"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "587"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "588"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "589"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "590"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "591"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "592"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "593"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "594"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "595"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "596"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "597"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "598"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "599"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "600"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "601"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "602"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "603"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "604"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "605"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "606"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "607"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "608"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "609"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "610"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "611"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "612"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "613"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "614"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "615"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "616"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "617"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "618"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "619"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "625"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "626"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "627"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "628"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "629"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "630"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "631"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "632"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "633"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "634"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "635"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "636"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "637"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "638"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "639"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "641"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "642"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "643"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "644"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "652"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "653"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "654"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "655"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "656"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "657"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "658"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "659"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "660"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "661"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "662"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "663"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "664"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "669"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "670"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "671"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "672"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "673"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "674"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "675"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "676"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "677"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "678"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "679"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "680"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "681"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "682"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "683"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "684"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "698"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "699"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "700"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "701"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "710"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "711"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "712"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "713"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "714"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "715"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "716"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "717"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "718"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "719"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "720"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "721"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "722"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "723"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "724"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "725"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "726"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "727"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "728"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "729"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "730"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "731"
+                    },
+                    {
+                        "type": "top_contents",
+                        "id": "732"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "top_contents",
+            "id": "472",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.businessinsider.com/elon-musk-cancels-trip-to-india-tesla-layoffs-struggles-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "473",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/20/this-is-the-1-stock-powering-the-electric-vehicle/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "507",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38134183/tech-titans-clash-mark-zuckerberg-rises-as-elon-musk-falters-in-billionaire-rankings"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "582",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5rmo2/will_golden_ratio_save_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "653",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c9x8pg/big_week_ahead/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "671",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://i.redd.it/whvr9892qhvc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "446",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://africa.businessinsider.com/transportation/tesla-tells-some-laid-off-employees-their-separation-agreements-are-canceled-and-new/vmv8fzx"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "345",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.forbes.com/sites/mollybohannon/2024/04/01/tinder-posts-ad-for-vp-of-ghosting-here-are-some-of-the-best-april-fools-pranks-by-companies-in-2024/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "431",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/08/why-electric-vehicle-and-affiliated-stocks-zoomed/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "467",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.upi.com/Top_News/US/2024/04/20/tiktok-ban-house-bill/6561713641568/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "504",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/10/biden-administration-could-start-forgiving-student-debt-this-year.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "599",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwkqps/tsla_selling_not_done_yet/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "678",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c96mvx/tesla_has_begun_cutting_prices_of_multiple/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "727",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.bloomberg.com/news/articles/2024-04-17/tesla-asks-shareholders-to-re-ratify-musk-s-56-billion-payout"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "45",
+            "attributes": {
+                "daily_ici": -0.4274440148269396,
+                "date": "2024-04-03T00:00:00Z",
+                "negative_count": 22,
+                "neutral_count": 0,
+                "positive_count": 14,
+                "volume": 152
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "579",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://dailybusinessupdates.com/tesla-faces-staffing-challenges-investors-seek-clarity-from-musk/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "657",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c794hf/i_am_new_to_options/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "568",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bthvns/achr_in_2024_is_like_tsla_in_2012/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "449",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.zacks.com/stock/news/2258004/what-are-genzs-favorite-stocks"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "553",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.cnn.com/2024/04/13/tech/ai-jobs-threat-guaranteed-income/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "586",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c2fztr/tsla_earnings_play/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "609",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c58l6d/first_two_words/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "36",
+            "attributes": {
+                "daily_ici": -0.262364264467491,
+                "date": "2024-04-08T00:00:00Z",
+                "negative_count": 12,
+                "neutral_count": 0,
+                "positive_count": 9,
+                "volume": 62
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "392",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.benzinga.com/general/24/04/38258816/elon-musk-calls-artificial-intelligence-greatest-potential-breakthrough-in-lifetime-with-caveat-a-sm"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "408",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://africa.businessinsider.com/news/mark-zuckerberg-moves-ahead-of-elon-musk-on-richest-person-list-as-tesla-falters/1k6vtsd"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "434",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/tesla-decision-to-pause-25-000-vehicle-could-be-thesis-changing-analyst-looks-for-clarity-on-robotaxi-timeline-1033231183"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "500",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.business-standard.com/world-news/elon-musk-s-undisclosed-starlink-costs-undercut-profitability-claims-124041001285_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "535",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/04/investors-should-consider-bond-etfs-before-fed-cuts-bondbloxx-coo.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "714",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c3yj60/blackberry_a_stunning_comeback_amd_partnership/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "721",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.forbes.com/sites/alanohnsman/2024/04/04/nikola-delivers-more-hydrogen-semis-helping-it-beat-tesla-in-electric-big-rigs/?sh=72e444c2bc7c"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "366",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.investors.com/news/tesla-fsd-subscription-price-slashed-99-a-month/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "728",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.barrons.com/articles/ark-cathie-wood-tesla-stock-80f6733d"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "443",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.investors.com/news/tesla-slashes-ev-full-self-driving-prices/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "452",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38322511/nasdaq-down-0-5-lithium-americas-shares-slide"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "561",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.businessinsider.com/rivian-layoffs-after-delaying-georgia-factory-r2-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "562",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/17/google-restructures-finance-team-as-a-part-of-ai-shift-cfo-tells-employees-in-memo.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "633",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/fg285ud1w2wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "726",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c6ej21/is_the_tech_bubble_finally_bursting/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "350",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://cointelegraph.com/news/cryptos-role-daily-payments-beyond-lugano"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "444",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38348400/several-companies-under-elon-musk-billed-each-other-approximately-9-million-in-expenses-raising-seri"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "661",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c6xwmt/boeings_whistleblower_vs_teslas_whistleblower_a/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "715",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4avx7/tsla_earnings/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "78",
+            "attributes": {
+                "daily_ici": 1.6094379124341003,
+                "date": "2024-04-17T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 4,
+                "volume": 8
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "730",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c6rge5/with_how_bearish_reddit_is_on_tesla_is_it_time_to/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "531",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/14/forget-fab-four-artificial-intelligence-ai-stocks/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "390",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.cnn.com/2024/04/15/us/5-things-pm-april-15-trnd/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "517",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38072667/tesla-stock-drops-on-weak-delivery-numbers-and-it-may-fall-more"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "520",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-powell-affirms-fed-rate-cut-outlook-inflation-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "548",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.foxbusiness.com/business-leaders/elon-musk-argentine-president-javier-milei-tesla-headquarters"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "611",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://i.redd.it/syjyohgvw3sc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "625",
+            "attributes": {
+                "posted_date": "2024-04-11T00:00:00Z",
+                "url": "https://i.redd.it/6e0zszka9vtc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "50",
+            "attributes": {
+                "daily_ici": 1.6094379124341003,
+                "date": "2024-04-01T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 4,
+                "volume": 4
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "356",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.forbes.com/sites/russellflannery/2024/04/16/price-wars-foreign-counterstrike-whats-ahead-at-the-beijing-auto-fair/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "368",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-middle-east-israel-iran-attack-oil-prices-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "389",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.prnewswire.com/news-releases/averatek-relaunches-as-lqdxcom--raises-10m-in-equity--government-funding-302117252.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "432",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.scmp.com/business/china-business/article/3258274/china-ev-price-war-tesla-rival-li-auto-says-cheapest-model-yet-bring-you-happiness-will-launch-next"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "502",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/10/fed-meeting-minutes-point-to-caution-on-inflation.html"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "58",
+            "attributes": {
+                "daily_ici": 1.0986122886681096,
+                "date": "2024-04-11T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 2,
+                "volume": 2
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "516",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.ft.com/content/c6496b3f-cd57-4d4d-9be2-97f754bedcb4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "523",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/tesla-stock-price-target-cut-jpmorgan-big-q1-delivery-miss-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "616",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bxmfk0"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "637",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/zwg3b859i0wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "469",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://apnews.com/article/tesla-lowers-prices-62999b502bddefc75aa1dbee47205d62"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "506",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.forbes.com/sites/brookecrothers/2024/04/07/tesla-model-y-model-3-price-cuts-continue-feel-the-pain/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "595",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reuters.com/business/autos-transportation/tesla-scraps-low-cost-car-plans-amid-fierce-chinese-ev-competition-2024-04-05/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "669",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://i.redd.it/ney9s5a74gvc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "61",
+            "attributes": {
+                "daily_ici": 1.0986122886681096,
+                "date": "2024-04-08T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 2,
+                "volume": 4
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "430",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.businessinsider.com/elon-musk-deposition-quotes-highlights-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "565",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bti528/tsla_just_another_car_company/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "672",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://stocks.apple.com/AuYtfuy59TRqtLw_3JOAnPw"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "73",
+            "attributes": {
+                "daily_ici": 1.3862943611198906,
+                "date": "2024-04-10T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 3,
+                "volume": 3
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "583",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5scp0/dd_on_europeanchynese_ev_company_nio_and_why_the/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "602",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwj80w/higher_oilgas_will_push_for_greater_ev_adoption/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "55",
+            "attributes": {
+                "daily_ici": 1.0986122886681096,
+                "date": "2024-04-02T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 2,
+                "volume": 5
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "543",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.ft.com/content/1f0b18d8-8566-4522-b2ae-5b84c04f576b"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "618",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bxmfk0"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "465",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://apnews.com/article/uaw-union-election-vw-chattanooga-tennessee-alabama-74ac19f72cd334050df96ffdccf7425f"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "351",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.foxbusiness.com/markets/buyers-teslas-chinese-rival-ev-may-face-monthslong-wait-su7"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "419",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-nvidia-nvda-stock-google-microsoft-meta-tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "627",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/lspjnjk102wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "716",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4121h/teslas_quantum_leap_again/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "372",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/12/stubhub-eyes-summer-ipo-seeks-16point5-billion-valuation.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "359",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-chief-powell-super-micro-asml-earnings/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "462",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/s-p-500-nears-6-day-slide-nasdaq-100-faces-worst-week-since-late-2022-what-s-driving-markets-friday-1033267221"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "463",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/19/why-tesla-stock-was-falling-again-this-week/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "613",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bu6i37/275k_yolo_tesla_puts/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "655",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://dailybusinessupdates.com/tesla-slashes-prices-again-to-woo-back-customers-amid-falling-sales/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "28",
+            "attributes": {
+                "daily_ici": 1.0986122886681096,
+                "date": "2024-04-01T00:00:00Z",
+                "negative_count": 4,
+                "neutral_count": 0,
+                "positive_count": 14,
+                "volume": 53
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "513",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.economist.com/business/2024/04/07/think-tesla-is-in-trouble-pity-even-more-its-wannabe-ev-rivals"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "700",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c0lzxm/tesla_robotaxis_vs_model_2_which_has_more/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "35",
+            "attributes": {
+                "daily_ici": -0.30010459245033816,
+                "date": "2024-04-22T00:00:00Z",
+                "negative_count": 26,
+                "neutral_count": 0,
+                "positive_count": 19,
+                "volume": 116
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "29",
+            "attributes": {
+                "daily_ici": -0.6286086594223741,
+                "date": "2024-04-16T00:00:00Z",
+                "negative_count": 14,
+                "neutral_count": 0,
+                "positive_count": 7,
+                "volume": 85
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "77",
+            "attributes": {
+                "daily_ici": 1.9459101490553132,
+                "date": "2024-04-04T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 6,
+                "volume": 8
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "364",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.forbes.com/sites/cfo/2024/04/16/tesla-continues-its-downfall-with-job-cuts/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "401",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.benzinga.com/trading-ideas/technicals/24/04/38056019/tesla-deliveries-slip-technical-indicators-add-to-stocks-downward-momentum"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "402",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.forbes.com/sites/petercohan/2024/04/02/buy-four-big-tech-stocks---nvidia-meta-microsoft-amazon---sell-apple-and-tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "592",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwuod8/53k_tsla_put_yolo_sold_too_early/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "610",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bu6i37/275k_yolo_tesla_puts/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "39",
+            "attributes": {
+                "daily_ici": -0.40546510810816444,
+                "date": "2024-04-19T00:00:00Z",
+                "negative_count": 11,
+                "neutral_count": 0,
+                "positive_count": 7,
+                "volume": 67
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "684",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c06upm/before_i_go_all_in_on_blackrock_calls/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "658",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c7hv8t/with_tsla_meta_and_msft_reporting_earnings_next/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "429",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-settles-lawsuit-over-autopilot-crash-that-killed-apple-engineer-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "496",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.benzinga.com/markets/equities/24/04/38193495/gatos-silvers-record-throughput-anglogold-publishes-annual-report-tmcs-new-board-member-and-more"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "593",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://i.redd.it/ra5uo3eg2osc1.png"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "628",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/w8046ar3s4wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "639",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/k81wu16nw1wc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "53",
+            "attributes": {
+                "daily_ici": 2.4849066497880004,
+                "date": "2024-04-05T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 11,
+                "volume": 13
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "448",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-power-trend-ending-netflix-subscribers/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "455",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/19/cramers-week-ahead-earnings-from-tesla-merck-and-big-tech.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "564",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.businessinsider.com/boston-dynamics-new-fully-electric-humanoid-robot-atlas-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "636",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1cakqqz/tesla_dont_you_dare_buy_calls/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "675",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c82vch/selling_calls_on_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "396",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://apnews.com/article/auto-sales-strong-electric-vehicle-sales-slow-70a663fbc0719ebda7a4ca814c2827d2"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "374",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.business-standard.com/industry/auto/tesla-aims-for-5-of-india-s-e-car-market-smooth-journey-or-rough-ride-124041200992_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "400",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-cyberbeast-goes-to-sothebys-auction-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "572",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5oe5v/when_are_we_selling_tsla_puts/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "65",
+            "attributes": {
+                "daily_ici": 1.791759469228055,
+                "date": "2024-04-18T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 5,
+                "volume": 8
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "428",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/08/tesla-settles-wrongful-death-lawsuit-over-fatal-2018-autopilot-crash-.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "532",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/14/how-bidens-new-student-loan-forgiveness-plan-differs-from-his-first-.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "567",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1btd3e5/alright_regards_how_will_they_bid_up_tsla_tomorrow/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "601",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://finance.yahoo.com/news/tesla-regained-worlds-top-ev-201359894.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "710",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://electrek.co/2024/04/14/tesla-rumor-massive-round-layoffs/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "68",
+            "attributes": {
+                "daily_ici": 1.6094379124341003,
+                "date": "2024-04-19T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 4,
+                "volume": 7
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "410",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.benzinga.com/pressreleases/24/04/g38131457/elon-musk-losing-understanding-of-consumer-base-retail-investors-tesla-still-in-need-of-market-cor"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "470",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.investors.com/news/tesla-cuts-model-y-s-x-prices-earnings-loom/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "530",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/14/median-annual-income-in-every-us-state.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "604",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4oi3f/why_the_tsla_dam_will_burst_at_16650/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "607",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4inhr/tesla_cybertruck_deliveries_reportedly_halted/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "626",
+            "attributes": {
+                "posted_date": "2024-04-11T00:00:00Z",
+                "url": "https://i.redd.it/0h1vzm5nzvtc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "682",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c8m6kg/teslas_elon_musk_postpones_india_trip_aims_to/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "352",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.businessinsider.com/stability-ai-emad-mostaque-elon-musk-right-being-ceo-sucks-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "427",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/08/tesla-settles-wrongful-death-lawsuit-over-fatal-2018-autopilot-crash.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "524",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38076059/tesla-struggles-with-delivery-goals-and-ai-tech-expectations-analysts-adjust-financial-forecasts"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "659",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c7k08v/meta_puts_and_tsla_calls/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "720",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bvtz9q/suggestions_for_what_happened_today_with_tsla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "405",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/li-auto-stock-nasdaq-li-growth-potential-remains-despite-soft-delivery-forecast-1033227351"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "458",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-nvidia-super-micro-plunge-tesla-microsoft-meta-due/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "581",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5pnxd/tsla_calls_as_overvalued_as_it_is_im_hoping_well/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "597",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bwupun"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "643",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bz9700/tsla_fsd_fatal_court_trial_starting_this_week/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "453",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/18/mortgage-rates-hit-highest-level-of-the-year-and-could-go-even-higher.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "403",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-sales-seminal-moment-darker-days-dan-ives-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "505",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.forbes.com/sites/brookecrothers/2024/04/07/tesla-cybertruck-lands-on-used-market---many-virtually-new-but-that-price/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "554",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://africa.businessinsider.com/transportation/ford-offers-tesla-drivers-dollar1500-discount-to-switch/9vf6gjd"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "571",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://i.redd.it/mio3ruqhtxuc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "590",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bwupun"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "718",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bvvrte"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "397",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-slides-tesla-skids-meta-buy-point/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "357",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/16/republican-house-panel-launches-probe-into-bidens-ftc-doj-task-force-.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "447",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-cancels-some-layoff-separation-agreements-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "539",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/04/rule-breaker-investing-mailbag-no-100-part-2/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "575",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://i.redd.it/iypp7ukx8suc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "603",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4inhr/tesla_cybertruck_deliveries_reportedly_halted/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "679",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://i.redd.it/32tknlo14ovc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "711",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4avx7/tsla_earnings/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "59",
+            "attributes": {
+                "daily_ici": 2.302585092994046,
+                "date": "2024-04-22T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 9,
+                "volume": 13
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "451",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.business-standard.com/companies/news/ramkrishna-forgings-to-supply-powertrain-components-to-us-largest-ev-maker-124041900013_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "522",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.benzinga.com/trading-ideas/long-ideas/24/04/38076756/cathie-wood-says-tesla-is-biggest-ai-project-in-world-sees-convergence-of-3-key-technolo"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "558",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38302345/pete-buttigieg-compares-people-not-ready-for-ev-adoption-to-cell-phone-skeptics-i-feel-like-its-the"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "438",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://apnews.com/article/brazil-bolsonaro-musk-rally-e9de9f76f5510a46e7d507f99a6c7a16"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "382",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-labor-wages-overtime-sick-leave-lawsuit-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "511",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.forbes.com/sites/neilwinton/2024/04/07/approaching-ev-turmoil-will-shake-up-european-automakers/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "576",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5qb5e/tsla_dip_caused_by_layoff_news_might_be_the_entry/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "617",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.barrons.com/articles/ark-invest-cathie-wood-tesla-elon-musk-fed-powell-98101f19"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "361",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.forbes.com/sites/zacharyfolk/2024/04/16/what-we-know-about-tesla-cybertruck-delays-after-customers-reportedly-notice-accelerator-pedal-problems/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "614",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://i.redd.it/syjyohgvw3sc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "663",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c7k08v/meta_puts_and_tsla_calls/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "354",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/nvidia-stock-uber-arm/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "70",
+            "attributes": {
+                "daily_ici": 1.0986122886681096,
+                "date": "2024-04-09T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 2,
+                "volume": 2
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "347",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/01/tesla-stock-27-downside-wall-street-analyst/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "375",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.upi.com/Top_News/US/2024/04/05/tesla-robotaxi-announcement-elon-musk/3631712357237/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "461",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-sp500-losing-streak-ai-tech-sell-off-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "573",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5pnxd/tsla_calls_as_overvalued_as_it_is_im_hoping_well/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "701",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bynsdw/this_weeks_game_a_secular_rally_coming/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "722",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://i.redd.it/jdt2vgkrsisc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "33",
+            "attributes": {
+                "daily_ici": -0.4353180712578455,
+                "date": "2024-04-02T00:00:00Z",
+                "negative_count": 16,
+                "neutral_count": 0,
+                "positive_count": 10,
+                "volume": 76
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "584",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5isk3/xpev_the_chinese_ev_powerhouse_thats_about_to/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "683",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1c09vii"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "385",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/15/gina-raimondo-commerce-will-spend-all-chips-act-money-this-year.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "369",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.prnewswire.com/news-releases/pomerantz-law-firm-announces-the-filing-of-a-class-action-against-vinfast-auto-ltd-and-certain-officers--vfs-302115623.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "391",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://edition.cnn.com/2024/04/15/us/5-things-pm-april-15-trnd/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "495",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://apnews.com/article/argentina-milei-elon-musk-tesla-us-82197a0aec9983c2f5c8fd699eaf6b8c"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "508",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/3-stocks-that-are-actually-worth-shorting-for-endless-gains-1033227724"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "563",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://africa.businessinsider.com/news/boston-dynamics-just-unveiled-a-fully-electric-freakishly-flexible-humanoid-robot/qh0vbk8"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "681",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://i.redd.it/0yo7r2iftnvc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "365",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/12/tesla-cuts-price-fsd-premium-driver-assistance-option-by-half-in-us.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "652",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://i.redd.it/36ninhha3xvc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "588",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c2cujt/wsb_reactions_to_tesla_robo_taxis/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "442",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.forbes.com/sites/meganpoinski/2024/04/21/how-businesses-can-attract-government-spending/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "456",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.investors.com/research/investing-action-plan/stock-market-action-plan-tesla-microsoft-headline-earnings-week/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "533",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.forbes.com/sites/jamesmorris/2024/04/14/grecale-folgore-an-electric-suv-worthy-of-maseratis-racing-heritage/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "545",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://africa.businessinsider.com/transportation/tesla-tells-cybertruck-employees-that-shifts-will-be-shorter-at-the-austin/7f4xz4n"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "552",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/13/buffett-really-was-not-a-great-stock-picker-swedroe-on-investing.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "598",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwuvcy/tesla_stock_owners_when_will_you_sell/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "634",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/lspjnjk102wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "349",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.forbes.com/sites/dereksaul/2024/04/01/donald-trumps-net-worth-sinks-1-billion-as-truth-social-linked-stock-tanks/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "660",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c77owh/discount_stocks_im_buying_ea_bmbl_tsla_rivn_mcd/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "436",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/04/38349204/can-magnificent-7-help-script-market-turnaround-earnings-pick-up-pace-with-microsof"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "439",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.forbes.com/sites/brookecrothers/2024/04/21/tesla-cuts-model-y-prices-again-as-world-waits-for-word-on-model-2/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "466",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/20/near-all-time-lows-finally-some-positive-news-for/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "482",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.forbes.com/sites/maryroeloffs/2024/04/09/tesla-cyberbeast-sells-for-twice-its-sticker-price-at-auction-in-first-test-of-hyped-trucks-resale-value/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "497",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-markets-price-out-fed-rate-cuts-nvidia-stock-rises/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "557",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.zacks.com/stock/news/2257202/tesla-tsla-sees-a-more-significant-dip-than-broader-market-some-facts-to-know"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "638",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/fg285ud1w2wc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "398",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-dow-sinks-396-points-as-unitedhealth-spirals"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "424",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-tesla-meta-1q24-earnings-fed-pce-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "480",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38171000/whats-going-on-with-chinese-ev-stocks-nio-and-xpeng"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "540",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/04/you-dont-have-to-be-a-bride-to-listen-in-to-this-h/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "570",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://i.redd.it/srkrdxoghuuc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "642",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bz9700/tsla_fsd_fatal_court_trial_starting_this_week/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "395",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.moneycontrol.com/news/business/markets/indexes-end-lower-as-tesla-drops-rate-cut-timing-weighed-12564411.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "414",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/06/heres-what-to-know-before-using-ai-chatbots-to-file-your-taxes.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "450",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-sandp-500-nasdaq-extend-losing-streaks"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "501",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38189280/why-ascent-solar-technologies-shares-are-trading-lower-by-around-50-here-are-other-stocks-moving-in"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "662",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://stocks.apple.com/ATZC5ZGSeTfOR1tVkYEblOw"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "676",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://i.redd.it/0irrpa7wqovc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "363",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://epaper.financialexpress.com/3855414/Chennai/APRIL-17-202#page/1/1"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "422",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.investors.com/news/sp-500-stocks-ford-nvidia-tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "440",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.business-standard.com/companies/news/india-offers-easy-localisation-term-to-tesla-50-dva-in-5-years-124042100486_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "454",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.benzinga.com/trading-ideas/long-ideas/24/04/38322103/to-the-moon-a-look-inside-an-etf-focused-on-companies-at-the-cutting-edge-of-innovation"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "471",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/20/teslas-stock-price-just-plunged-is-now-the-time-to/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "538",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-reversal-nvidia-stock-amd-dives-jobs-report-looms/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "556",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.ft.com/content/324e695e-34ee-4499-a12f-931644e5e8f8"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "600",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwuod8/53k_tsla_put_yolo_sold_too_early/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "393",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-reversal-nvidia-slides-tesla-tumbles/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "713",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://electrek.co/2024/04/14/tesla-rumor-massive-round-layoffs/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "549",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://africa.businessinsider.com/transportation/some-tesla-employees-worry-that-layoffs-are-coming/hdthc52"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "587",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c2nkuy/tsla_earnings_and_protecting_against_iv_crush_help/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "536",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/04/jim-cramer-updates-his-media-stock-ranking-and-puts-fox-over-disney.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "355",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/17/bitcoin-halving-what-is-it-and-what-does-it-mean-for-crypto-prices.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "460",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.benzinga.com/markets/cryptocurrency/24/04/38342242/powell-middle-east-fears-weigh-on-tech-stocks-treasury-yields-hit-5-gold-notches-fifth-wee"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "699",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c0hbuc/time_to_buy_tsla_is_here_last_time_i_missed_the/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "712",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c4121h/teslas_quantum_leap_again/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "353",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/01/teslas-strides-in-this-game-changing-technology-ma/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "656",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1ca0ssa/tesla_cybertrucks_pedal_fix_isnt_pretty_but/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "49",
+            "attributes": {
+                "daily_ici": 0.36772478012531734,
+                "date": "2024-04-17T00:00:00Z",
+                "negative_count": 8,
+                "neutral_count": 0,
+                "positive_count": 12,
+                "volume": 84
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "406",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38131745/cathie-wood-hails-elon-musks-visionary-impact-hes-transforming-the-world-saving-humanity-from-itself"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "503",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/10/heres-how-to-file-a-federal-tax-extension-for-free-in-minutes.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "510",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.forbes.com/sites/melissahouston/2024/04/07/the-majority-of-billionaires-made-their-money-this-way/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "732",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c647hb/ford_f_possible_20x_bagger_coming_up_424/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "404",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38054886/jon-stewart-roasts-bait-and-switch-ai-hype-from-zuckerberg-pichai-altman-and-other-silicon-valley-ch"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "387",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/15/boeing-defends-787-dreamliner-safety-after-whistleblower-claims.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "433",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-arm-broadcom-nvidia-tesla-tsla-stock/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "515",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/03/jim-cramer-says-the-ai-buzz-is-far-from-a-bubble-the-game-has-yet-to-start.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "526",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.businessinsider.com/elon-musk-mark-zuckerberg-tim-cook-ceos-unusual-habits-routines-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "578",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://i.redd.it/srkrdxoghuuc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "631",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://i.redd.it/sil0yecsw5wc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "38",
+            "attributes": {
+                "daily_ici": 0.24512245803298494,
+                "date": "2024-04-18T00:00:00Z",
+                "negative_count": 17,
+                "neutral_count": 0,
+                "positive_count": 22,
+                "volume": 86
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "417",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.zacks.com/stock/news/2259627/markets-close-in-the-green-mag-7-earnings-this-week"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "555",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/17/tesla-is-laying-off-285-employees-in-buffalo-new-york-as-part-of-a-broad-restructuring.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "559",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-sp500-tech-fed-rate-cuts-outlook-inflation-powell-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "594",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://i.redd.it/2qthob9y6qsc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "644",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://i.redd.it/j3znbgyl9ctc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "409",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.businessinsider.com/mark-zuckerberg-passes-elon-musk-on-bloomberg-billionaires-index-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "421",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/04/38365322/nasdaq-100-breaks-3-day-losing-streak-as-tech-stocks-rebound-ahead-of-earnings-week"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "468",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.business-standard.com/world-news/tesla-cuts-prices-for-3-of-its-ev-models-in-us-following-a-difficult-week-124042000759_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "476",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://decrypt.co/225517/crypto-influencer-dj-marshmello-stunt-times-square-nyc"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "566",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://i.redd.it/ovqo5vv7twrc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "635",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1casmnu/about_that_falling_knife_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "346",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-tesla-tsla-stock-google-stock/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "498",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.zacks.com/commentary/2253621/ai-leaders-retreat-generational-buying-opportunity"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "544",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.businessinsider.com/elon-musk-says-ai-talent-war-is-craziest-hes-seen-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "596",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/05/elon-musk-says-tesla-will-unveil-its-robotaxi-on-aug-8-shares-pop.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "378",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://africa.businessinsider.com/transportation/elon-musk-says-tesla-will-unveil-its-robotaxi-this-year/y1zt7k5"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "412",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.business-standard.com/companies/news/tesla-s-low-quarterly-sales-spark-concerns-over-company-s-future-growth-124040600668_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "546",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-tells-cybertruck-employees-shifts-shorter-austin-gigafactory-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "560",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/17/investing-in-trump-media-is-an-act-of-faith-expert-says-here-are-risks.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "654",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://i.redd.it/i93e3bxaduvc1.png"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "731",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c6btrt/tesla_should_investors_approve_musks_56_billion/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "383",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.businessinsider.com/stock-market-today-strong-march-nfp-jobs-employment-report-inflation-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "376",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.cnn.com/2024/04/05/business/elon-musk-tesla-robotaxi-august-8/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "407",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/06/280-billion-reasons-to-buy-nvidia-stock-hand-over/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "420",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/22/boeing-expects-slower-production-increase-of-787-dreamliner.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "477",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-awaits-cpi-inflation-tesla-rises-nvidia-falls-on-rival-ai-chips/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "484",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.benzinga.com/general/24/04/38169683/elon-musk-once-slammed-fauci-fan-club-now-bird-flu-in-cats-cows-and-humans-puts-pandemic-research-un"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "525",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.forbes.com/sites/devpatnaik/2024/04/14/where-to-play-dont-get-caught-in-the-collapsing-middle/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "550",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-layoffs-employees-worry-2024-4"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "54",
+            "attributes": {
+                "daily_ici": 1.6094379124341003,
+                "date": "2024-04-15T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 4,
+                "volume": 7
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "585",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5qb5e/tsla_dip_caused_by_layoff_news_might_be_the_entry/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "362",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38278972/tesla-stock-falls-as-cybertruck-faces-unexpected-delays"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "475",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.businessinsider.com/mistake-investing-money-instead-of-saving-it-2024-04"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "478",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.cnn.com/2024/04/09/business/lula-elon-musk-moraes-leash/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "521",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/03/bidens-plan-to-cap-rent-hikes-in-certain-units-heres-what-to-know.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "527",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.forbes.com/sites/petercohan/2024/04/14/with-tesla-stock-down-31-musks-robotaxi-push-aids-short-sellers/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "605",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://i.redd.it/ieqwbj2rgpuc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "360",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.businessinsider.com/laid-off-tesla-worker-story-after-relocating-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "415",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/04/38367087/tesla-q1-earnings-preview-is-ev-giant-no-longer-a-growth-stock-analysts-cautious-wa"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "474",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/20/big-change-in-global-growth-is-bullish-for-commodities-vaneck-ceo.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "479",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/09/jeff-yass-millions-to-influence-schools-courts-and-markets.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "499",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.businessinsider.com/images-of-human-brain-from-worlds-most-powerful-mri-machine-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "509",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.forbes.com/sites/meganpoinski/2024/04/07/taskrabbit-ceo-talks-about-the-evolution-of-gig-economy-companies/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "698",
+            "attributes": {
+                "posted_date": "2024-04-10T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c0obre/sea_of_blood/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "358",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.cnn.com/2024/04/16/economy/what-if-no-rate-cuts-this-year/index.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "373",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://cointelegraph.com/news/paris-blockchain-week-recap-optimism-abounded-bitcoin-halving-approaches"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "386",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/15/why-investors-slammed-the-brakes-on-electric-vehic/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "512",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.benzinga.com/news/24/04/38133688/sundar-pichais-google-grapples-with-ai-mishaps-amid-worker-criticism-yet-holds-title-of-americas-mos"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "577",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5poh3/tsla_going_below_125/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "632",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1caewjv/tsla_earnings_iv_crush/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "31",
+            "attributes": {
+                "daily_ici": 0.1823215567939546,
+                "date": "2024-04-05T00:00:00Z",
+                "negative_count": 14,
+                "neutral_count": 0,
+                "positive_count": 17,
+                "volume": 77
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "537",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.foxbusiness.com/technology/elon-musk-boosting-pay-ai-engineers-prevent-poaching-openai"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "606",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://v.redd.it/3b87262t6nuc1"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "674",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.reuters.com/business/autos-transportation/tesla-recall-3878-cybertrucks-nhtsa-says-2024-04-19/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "529",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/14/should-you-buy-palantir-stock-before-the-next-sp-5/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "371",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.benzinga.com/markets/asia/24/04/38225670/elon-musk-meets-javier-milei-chat-about-cutting-red-tape-boosting-birth-rates-and-more"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "416",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/22/unitedhealth-paid-ransom-to-bad-actors-says-patient-data-was-compromised-in-change-healthcare-cyberattack.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "519",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.zacks.com/stock/news/2250077/tesla-tsla-laps-the-stock-market-heres-why"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "534",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-on-israel/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "542",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.investorideas.com/news/2024/mining/04043RichardMills-Graphite.asp"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "619",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.barrons.com/articles/ark-invest-cathie-wood-tesla-elon-musk-fed-powell-98101f19"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "724",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bw5ym0/dd_sgml_seems_a_solid_earner/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "370",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.benzinga.com/general/entertainment/24/04/38227087/fallout-4-next-gen-release-date-from-bethesda-whats-in-store"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "725",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c6krgu/help_please_is_iv_calculator_on_optionstrat/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "413",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/06/new-etf-looks-to-profit-from-municipal-bonds.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "425",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://www.moneycontrol.com/news/business/markets/wall-street-ends-flat-as-investors-await-cpi-earnings-12602391.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "481",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/04/38170666/if-tesla-hits-brakes-on-25k-ev-it-would-be-a-meaningful-negative-for-the-stock-gold"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "569",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5poh3/tsla_going_below_125/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "589",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c2abi8/why_do_we_think_big_3_will_actually_make_decent/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "608",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://i.redd.it/o7qxhqs8iquc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "630",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1cakqqz/tesla_dont_you_dare_buy_calls/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "348",
+            "attributes": {
+                "posted_date": "2024-04-01T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/01/tesla-sentiment-is-reaching-a-tipping-point/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "719",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.reddit.com/gallery/1bw20hi"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "377",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.forbes.com/sites/mollybohannon/2024/04/05/elon-musk-says-tesla-will-reveal-its-robotaxi-on-aug-8/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "381",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/05/elon-musk-says-tesla-will-unveil-its-robotaxi-on-aug-8-shares-pop.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "411",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/05/nsc-coo-john-orr-has-history-of-abusive-behavior-activist-ancora-says.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "437",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://moneymorning.com/2024/04/21/market-preview-week-of-april-21/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "551",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.benzinga.com/markets/equities/24/04/38238276/elon-musk-is-epitome-of-everything-thats-wrong-with-this-world-says-uaw-chief-shawn-fain-while-d"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "52",
+            "attributes": {
+                "daily_ici": 1.6094379124341003,
+                "date": "2024-04-12T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 4,
+                "volume": 4
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "43",
+            "attributes": {
+                "daily_ici": 0.7472144018302211,
+                "date": "2024-04-10T00:00:00Z",
+                "negative_count": 8,
+                "neutral_count": 0,
+                "positive_count": 18,
+                "volume": 71
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "47",
+            "attributes": {
+                "daily_ici": 1.0498221244986778,
+                "date": "2024-04-04T00:00:00Z",
+                "negative_count": 6,
+                "neutral_count": 0,
+                "positive_count": 19,
+                "volume": 79
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "379",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.businessinsider.com/tesla-to-reveal-robotaxi-this-year-elon-musk-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "418",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/22/big-tech-keeps-prioritizing-ai-as-earnings-approach.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "435",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.foxbusiness.com/markets/tesla-slashes-price-full-self-driving-software"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "459",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.foxbusiness.com/markets/teslas-troubles-inflation-sticks-boeing-whistleblower-warns-wnba-wows"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "464",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/19/why-ev-and-renewable-energy-stocks-collapsed-this/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "41",
+            "attributes": {
+                "daily_ici": 0.6418538861723947,
+                "date": "2024-04-09T00:00:00Z",
+                "negative_count": 9,
+                "neutral_count": 0,
+                "positive_count": 18,
+                "volume": 84
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "547",
+            "attributes": {
+                "posted_date": "2024-04-13T00:00:00Z",
+                "url": "https://www.investors.com/news/tesla-cybertruck-deliveries-reportedly-halted/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "384",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.forbes.com/sites/digital-assets/2024/04/05/use-caution-before-investing-in-bitcoin-side-projects/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "394",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-israel-iran-escalation-worries-spiking-treasury-yields-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "457",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.zacks.com/commentary/2258747/what-can-investors-expect-from-big-tech-earnings"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "541",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-stocks-swing-lower-as-march-jobs-report-looms"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "615",
+            "attributes": {
+                "posted_date": "2024-04-06T00:00:00Z",
+                "url": "https://i.redd.it/yofuaifaewsc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "629",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1casmnu/about_that_falling_knife_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "677",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://i.redd.it/xdx59zdakpvc1.jpeg"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "51",
+            "attributes": {
+                "daily_ici": 2.4849066497880004,
+                "date": "2024-04-16T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 11,
+                "volume": 17
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "580",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5jgef/head_shoulder_pattern_on_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "670",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://i.redd.it/a3h12o4myhvc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "680",
+            "attributes": {
+                "posted_date": "2024-04-20T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c90kzb/tesla_fsd_mercedes_beats_them_to_market/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "388",
+            "attributes": {
+                "posted_date": "2024-04-15T00:00:00Z",
+                "url": "https://www.zacks.com/stock/news/2255625/marks-cannot-sustain-rebound-amid-high-bond-rates"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "514",
+            "attributes": {
+                "posted_date": "2024-04-07T00:00:00Z",
+                "url": "https://www.businessinsider.com/emad-mostaque-elon-musk-being-a-ceo-sucks-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "673",
+            "attributes": {
+                "posted_date": "2024-04-19T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c8eeow/if_you_held_puts_over_the_weekend/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "717",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://i.redd.it/2sc9o385hjsc1.jpeg"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "723",
+            "attributes": {
+                "posted_date": "2024-04-04T00:00:00Z",
+                "url": "https://www.ft.com/content/e9cbf92f-17f9-439a-ab7f-80fd8b589472"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "423",
+            "attributes": {
+                "posted_date": "2024-04-22T00:00:00Z",
+                "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-markets-rebound-ahead-of-big-week-for-earnings"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "380",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-stock-elon-musk-tesla-robotaxi/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "399",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.ft.com/content/528c5414-dd80-4a5d-9360-17b4c06d3132"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "426",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://apnews.com/article/tesla-autopilot-lawsuit-settlement-f4c19ce05e17669de212fc262265e351"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "445",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.investors.com/news/cava-stock-price-volume-research-investing/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "518",
+            "attributes": {
+                "posted_date": "2024-04-03T00:00:00Z",
+                "url": "https://www.cnbc.com/2024/04/03/ex-twitter-gm-nick-caldwell-sues-elon-musk-x-over-unpaid-severance.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "612",
+            "attributes": {
+                "posted_date": "2024-04-02T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1btyfr8/tesla_misses_deliveries_massive_drop/"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "30",
+            "attributes": {
+                "daily_ici": 1.9459101490553132,
+                "date": "2024-04-12T00:00:00Z",
+                "negative_count": 0,
+                "neutral_count": 0,
+                "positive_count": 6,
+                "volume": 16
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "367",
+            "attributes": {
+                "posted_date": "2024-04-12T00:00:00Z",
+                "url": "https://www.benzinga.com/markets/equities/24/04/38228298/market-turmoil-resumes-as-inflation-rises-more-than-expected-oil-prices-spike-gold-at-record-hig"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "441",
+            "attributes": {
+                "posted_date": "2024-04-21T00:00:00Z",
+                "url": "https://www.business-standard.com/industry/auto/tesla-cuts-price-of-full-self-driving-software-by-a-third-to-8-000-124042100634_1.html"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "483",
+            "attributes": {
+                "posted_date": "2024-04-09T00:00:00Z",
+                "url": "https://www.businessinsider.com/elon-musk-says-ai-will-outsmart-humans-by-2026-2024-4"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "528",
+            "attributes": {
+                "posted_date": "2024-04-14T00:00:00Z",
+                "url": "https://www.fool.com/investing/2024/04/14/a-once-in-a-generation-investment-opportunity-1-to/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "574",
+            "attributes": {
+                "posted_date": "2024-04-16T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c5rmo2/will_golden_ratio_save_tesla/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "591",
+            "attributes": {
+                "posted_date": "2024-04-05T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1bwkqps/tsla_selling_not_done_yet/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "641",
+            "attributes": {
+                "posted_date": "2024-04-08T00:00:00Z",
+                "url": "https://i.redd.it/p7gtnn2sx9tc1.png"
+            }
+        },
+        {
+            "type": "sentiments",
+            "id": "32",
+            "attributes": {
+                "daily_ici": 0,
+                "date": "2024-04-15T00:00:00Z",
+                "negative_count": 13,
+                "neutral_count": 0,
+                "positive_count": 13,
+                "volume": 83
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "729",
+            "attributes": {
+                "posted_date": "2024-04-17T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c65j7b/is_tesla_preparing_a_capital_raise_production/"
+            }
+        },
+        {
+            "type": "top_contents",
+            "id": "664",
+            "attributes": {
+                "posted_date": "2024-04-18T00:00:00Z",
+                "url": "https://www.reddit.com/r/wallstreetbets/comments/1c77owh/discount_stocks_im_buying_ea_bmbl_tsla_rivn_mcd/"
+            }
+        }
+    ]
+}

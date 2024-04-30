@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
+import { fetchChartData } from "@/api/fetchData";
 import {
   Typography,
   Card,
@@ -20,13 +21,14 @@ import {
   ArrowUpIcon,
 } from "@heroicons/react/24/outline";
 import { StatisticsCard, StockSentimentCard } from "@/widgets/cards";
-import { StatisticsChart } from "@/widgets/charts";
+import { StatisticsChart, GaugeMeter } from "@/widgets/charts";
 import {
   statisticsCardsData,
-  statisticsChartsData,
+  statisticsChartsSocial,
   statisticsChartsNews,
   projectsTableData,
-  ordersOverviewData
+  ordersOverviewData,
+  pieCharts
 } from "@/data";
 import {
   Sidenav,
@@ -35,10 +37,16 @@ import {
 import { CheckCircleIcon, ClockIcon } from "@heroicons/react/24/solid";
 
 export function Home() {
+  const [chartNewsData, setChartNewsData] = useState(null);
+  const [chartSocialData, setChartSocialData] = useState(null);
+  const [pieCharts, setPieCharts] = useState(null);
+  const [gaugeData, setGaugeData] = useState(null);
+
+
   return (
     <div className="mt-12">
       <div className="mb-12 flex justify-center items-center gap-x-4">
-        <SearchCard />
+        <SearchCard setNewsData={setChartNewsData} setSocialData={setChartSocialData} setGaugeData={setGaugeData} setPieCharts={setPieCharts}/>
       </div>
       <Tabs>
         <TabList>
@@ -48,16 +56,24 @@ export function Home() {
         </TabList>
 
         <TabPanel>
+        
+           <GaugeMeter values={gaugeData}/> 
+        
           <div className="mb-12 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-4">
-            {/* ... StatisticsCard code ... */}
-          </div>
+          {pieCharts && pieCharts.map((props) => (
+              <StatisticsChart
+                key={props.title}
+                {...props}
+              />
+            ))}
+             </div>
         </TabPanel>
 
         <TabPanel>
           <div className="md:w-100">
             <h1 className="text-3xl text-black-600 font-bold my-4">News</h1>
             <div className="mb-6 grid grid-cols-2 gap-4">
-              {statisticsChartsNews.map((props) => (
+              {chartNewsData && chartNewsData.map((props) => (
                 <StatisticsChart
                   key={props.title}
                   {...props}
@@ -80,7 +96,7 @@ export function Home() {
           <div className="md:w-100">
             <h1 className="text-3xl text-black-600 font-bold my-4">Social Media</h1>
             <div className="mb-6 grid grid-cols-2 gap-4 ">
-            {statisticsChartsData.map((props) => (
+            {chartSocialData && chartSocialData.map((props) => (
           <StatisticsChart
             key={props.title}
             {...props}
