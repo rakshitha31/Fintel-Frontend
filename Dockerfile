@@ -1,13 +1,11 @@
 FROM node:17-alpine as builder
 WORKDIR /src
-COPY package*.json .
-RUN npm install
+COPY package.json ./
+COPY package-lock.json ./
 COPY . .
+RUN npm install
 RUN npm run build
 
-#Stage 2
-FROM nginx:1.19.0
-WORKDIR /usr/share/nginx/html
-RUN rm -rf ./*
-COPY --from=builder /src/build .
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+FROM nginx:1.21.3-alpine
+COPY --from=builder /src/dist /usr/share/nginx/html
+EXPOSE 80

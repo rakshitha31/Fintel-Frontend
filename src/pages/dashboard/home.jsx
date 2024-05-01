@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from "react";
-import { fetchChartData } from "@/api/fetchData";
 import {
   Typography,
   Card,
@@ -14,6 +13,7 @@ import {
   Tooltip,
   Progress,
 } from "@material-tailwind/react";
+import { Tables } from "@/pages/dashboard/tables";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import {
@@ -26,7 +26,9 @@ import {
   statisticsCardsData,
   statisticsChartsSocial,
   statisticsChartsNews,
-  pieCharts
+  pieCharts,
+  topNews,
+  topPosts
 } from "@/data";
 import {
   Sidenav,
@@ -39,14 +41,19 @@ export function Home() {
   const [chartSocialData, setChartSocialData] = useState(null);
   const [pieCharts, setPieCharts] = useState(null);
   const [gaugeData, setGaugeData] = useState(null);
-
+  const [topNews, setTopNews] = useState(null);
+  const [topPosts, setTopPosts] = useState(null);
+  const [tabIndex, setTabIndex] = useState(0);
+  const handleTabSelect = (index) => {
+    setTabIndex(index);
+  };
 
   return (
     <div className="mt-12">
       <div className="mb-12 flex justify-center items-center gap-x-4">
-        <SearchCard setNewsData={setChartNewsData} setSocialData={setChartSocialData} setGaugeData={setGaugeData} setPieCharts={setPieCharts}/>
+        <SearchCard setNewsData={setChartNewsData} setSocialData={setChartSocialData} setGaugeData={setGaugeData} setPieCharts={setPieCharts} setTopNews={setTopNews} setTopPosts={setTopPosts}/>
       </div>
-      <Tabs>
+      <Tabs selectedIndex={tabIndex} onSelect={handleTabSelect}>
         <TabList>
           <Tab>Stock Price Synergy</Tab>
           <Tab>News</Tab>
@@ -84,8 +91,11 @@ export function Home() {
                     </Typography>
                   }
                 />
+
               ))}
+              
             </div>
+            <Tables topData={topNews} />
           </div>
         </TabPanel>
 
@@ -109,6 +119,7 @@ export function Home() {
           />
         ))}
             </div>
+            <Tables topData={topPosts} />
           </div>
         </TabPanel>
       </Tabs>

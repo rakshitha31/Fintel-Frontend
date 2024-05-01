@@ -67,7 +67,6 @@ export const statisticsChartsNews = (newsData) => {
     return null;
   }
 
-  console.log(newsData.newsIci);
   return [
   {
     color: "white",

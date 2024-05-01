@@ -1,4 +1,3 @@
-import Papa from 'papaparse';
 import stocks from '../data/stocks'
 
 

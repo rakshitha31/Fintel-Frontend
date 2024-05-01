@@ -4,7 +4,7 @@ import { fetchChartData } from "@/api/fetchData";
 import { fetchSuggestions } from "@/api/fetchSuggestions";
 import { useCombobox } from 'downshift';
 
-export function SearchCard({ setNewsData, setSocialData, setGaugeData , setPieCharts}) {
+export function SearchCard({ setNewsData, setSocialData, setGaugeData , setPieCharts , setTopNews, setTopPosts}) {
   const [isFocused, setIsFocused] = useState(false);
   const [stockTicker, setStockTicker] = useState("");
   const [timePeriod, setTimePeriod] = useState("");
@@ -37,46 +37,43 @@ export function SearchCard({ setNewsData, setSocialData, setGaugeData , setPieCh
     fetchSuggestions(e.target.value).then(setSuggestions);
   };
 
+  const calculateStartDate = (timePeriod) => {
+    const today = new Date();
+    let startDate;
+  
+    switch (timePeriod) {
+      case "week":
+        startDate = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+        break;
+      case "twoWeeks":
+        startDate = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14);
+        break;
+      case "month":
+        startDate = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
+        break;
+      default:
+        startDate = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
+    }
+  
+    return startDate.toISOString().slice(0, 10);
+  };
+  
+  const fetchData = (stockTicker, startDate) => {
+    const today = new Date().toISOString().slice(0, 10);
+    fetchChartData(stockTicker, startDate, today).then((data) => {
+      setNewsData(data.newsCharts);
+      setSocialData(data.socialCharts);
+      setGaugeData(data.gaugeChart);
+      setPieCharts(data.pieCharts);
+      setTopNews(data.topNews);
+      setTopPosts(data.topPosts);
+    });
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    // if timePeriod is one week
-    if (timePeriod === "week") {
-      const today = new Date();
-      const lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
-      fetchChartData(stockTicker, lastWeek.toISOString().slice(0, 10), today.toISOString().slice(0, 10)).then((data) => {
-        setNewsData(data.newsCharts);
-        setSocialData(data.socialCharts);
-        setGaugeData(data.gaugeChart);
-        setPieCharts(data.pieCharts);
-        
-        
-      });
-    }
-    else if(timePeriod === "twoWeeks") {
-      const today = new Date();
-      const twoWeeks = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14);
-      fetchChartData(stockTicker, twoWeeks.toISOString().slice(0, 10), today.toISOString().slice(0, 10)).then((data) => {
-
-        setNewsData(data.newsCharts);
-        setSocialData(data.socialCharts);
-        setGaugeData(data.gaugeChart);
-        setPieCharts(data.pieCharts);
-
-      });
-    }
-    // if timePeriod is one month
-    else if (timePeriod === "month") {
-      console.log("month");
-      const today = new Date();
-      const lastMonth = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
-      fetchChartData(stockTicker, lastMonth.toISOString().slice(0, 10), today.toISOString().slice(0, 10)).then((data) => {
-        setNewsData(data.newsCharts);
-        setSocialData(data.socialCharts);
-        setGaugeData(data.gaugeChart);
-        setPieCharts(data.pieCharts);
-      });
-    }
+    const startDate = calculateStartDate(timePeriod);
+    fetchData(stockTicker, startDate);
   };
 
   return (
