@@ -95,7 +95,7 @@ export function Home() {
               ))}
               
             </div>
-            <Tables topData={topNews} />
+            <Tables topData={topNews} tabIndex={tabIndex} />
           </div>
         </TabPanel>
 
@@ -119,7 +119,7 @@ export function Home() {
           />
         ))}
             </div>
-            <Tables topData={topPosts} />
+            <Tables topData={topPosts} tabIndex={tabIndex}/>
           </div>
         </TabPanel>
       </Tabs>
