@@ -35,7 +35,7 @@ const reduceCount = (data, attribute) =>
 
 // Fetch data for charts
 export const fetchChartData = async (stock_ticker, start_date, end_date) => {
-  const jsonAPI = `${process.env.REACT_APP_API_URL}/${stock_ticker}?time_start=${start_date}&time_end=${end_date}`;
+  const jsonAPI = `${import.meta.env.VITE_REACT_APP_FETCH_URL}/v0/sentiment/stock/${stock_ticker}?time_start=${start_date}&time_end=${end_date}`;
 
   const data = await fetchData(jsonAPI);
   const chartData = cleanData(data);
