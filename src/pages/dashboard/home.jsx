@@ -48,6 +48,7 @@ export function Home() {
     setTabIndex(index);
   };
 
+
   return (
     <div className="mt-12">
       <div className="mb-12 flex justify-center items-center gap-x-4">

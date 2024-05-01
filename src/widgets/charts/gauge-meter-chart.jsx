@@ -11,13 +11,15 @@ function customizeTooltip(arg) {
 }
 function customizeText(arg) {
   const labels = ["News", "Social Media"];
-  return `${labels[arg.item.index]} - ${arg.text}`;
+  return `${labels[arg.item.index]} : ${arg.text}`;
 
 }
 function getText(item, text) {
-  return ` ${item.index + 1} - ${text} `;
+  return ` ${item.index + 1} : ${text} `;
 }
 export function GaugeMeter({ values }) {
+
+  if (!values) return null;
   
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
@@ -38,8 +40,8 @@ export function GaugeMeter({ values }) {
         customizeTooltip={customizeTooltip}
       />
       <Export enabled={true} />
-      <Title text="Correlation">
-        <Font size={28} />
+      <Title text="Correlation between Stock Price & Sentiment">
+        <Font size={20} />
       </Title>
       <Legend
         visible={true}

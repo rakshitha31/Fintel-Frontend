@@ -8,10 +8,10 @@ import {
     Tooltip,
     Progress,
   } from "@material-tailwind/react";
-  import { EllipsisVerticalIcon } from "@heroicons/react/24/outline";
   import { FaReddit, FaNewspaper } from 'react-icons/fa';
 
   export function Tables({ topData, tabIndex }) {
+    if(!topData) topData = [];
     return (
       <div className="mt-12 mb-8 flex flex-col gap-12">
         <Card>
@@ -66,9 +66,7 @@ import {
                         </td>
                         </a>
                         <td className={className}>
-                       
-                        {tabIndex==0 ? <FaNewspaper className="py-0.5 px-2 text-[11px] font-small w-fit" color="blue" size="2.5em" /> :  <FaReddit className="py-0.5 px-2 text-[11px] font-small w-fit" color="red" size="2.5em" />}
-                         
+                       { tabIndex == 1 ? <FaNewspaper className="py-0.5 px-2 text-[11px] font-small w-fit" color="blue" size="2.5em" /> :  <FaReddit className="py-0.5 px-2 text-[11px] font-small w-fit" color="red" size="2.5em" />}
                         </td>
                       </tr>
                     );
